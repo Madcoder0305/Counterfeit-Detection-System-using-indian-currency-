@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "name": "CNN only",
+      "accuracy": 0.9201,
+      "precision": 0.9427,
+      "recall": 0.7728,
+      "f1": 0.8494,
+      "time_ms": 0.0
+    },
+    {
+      "name": "CNN + OCR",
+      "accuracy": 0.9216,
+      "precision": 0.9459,
+      "recall": 0.7755,
+      "f1": 0.8522,
+      "time_ms": 10.0
+    },
+    {
+      "name": "CNN + Security",
+      "accuracy": 0.9231,
+      "precision": 0.949,
+      "recall": 0.7781,
+      "f1": 0.8551,
+      "time_ms": 5.0
+    },
+    {
+      "name": "Full Fusion",
+      "accuracy": 0.9231,
+      "precision": 0.949,
+      "recall": 0.7781,
+      "f1": 0.8551,
+      "time_ms": 15.0
+    }
+  ]
+}

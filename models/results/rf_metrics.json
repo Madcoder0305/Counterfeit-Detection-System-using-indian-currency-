@@ -1,0 +1,18 @@
+{
+  "model": "Random Forest",
+  "currency": "INR",
+  "accuracy": 0.8858,
+  "precision": 0.8643,
+  "recall": 0.6836,
+  "f1_score": 0.7634,
+  "confusion_matrix": [
+    [
+      922,
+      38
+    ],
+    [
+      112,
+      242
+    ]
+  ]
+}

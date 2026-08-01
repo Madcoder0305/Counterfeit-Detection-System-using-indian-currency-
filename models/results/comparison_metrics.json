@@ -1,0 +1,40 @@
+{
+  "models": [
+    {
+      "name": "CNN",
+      "accuracy": 0.87,
+      "precision": 0.86,
+      "recall": 0.88,
+      "f1": 0.87,
+      "inference_time_ms": 45.2,
+      "model_size_mb": 12.4
+    },
+    {
+      "name": "MobileNetV2",
+      "accuracy": 0.9711,
+      "precision": 0.9412,
+      "recall": 0.9608,
+      "f1": 0.9509,
+      "inference_time_ms": 63.7,
+      "model_size_mb": 22.5
+    },
+    {
+      "name": "Random Forest",
+      "accuracy": 0.79,
+      "precision": 0.78,
+      "recall": 0.8,
+      "f1": 0.79,
+      "inference_time_ms": 12.1,
+      "model_size_mb": 8.2
+    },
+    {
+      "name": "SVC",
+      "accuracy": 0.81,
+      "precision": 0.8,
+      "recall": 0.82,
+      "f1": 0.81,
+      "inference_time_ms": 8.4,
+      "model_size_mb": 5.6
+    }
+  ]
+}

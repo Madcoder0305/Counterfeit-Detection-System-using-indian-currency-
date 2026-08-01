@@ -1,0 +1,60 @@
+{
+  "currency": "INR",
+  "models": {
+    "CNN": {
+      "model": "CNN",
+      "currency": "INR",
+      "dataset": "Kaggle preetrank/indian-currency-real-vs-fake-notes-dataset",
+      "accuracy": 0.9201,
+      "precision": 0.9427,
+      "recall": 0.7728,
+      "f1_score": 0.8494,
+      "confusion_matrix": [
+        [
+          913,
+          18
+        ],
+        [
+          87,
+          296
+        ]
+      ]
+    },
+    "SVC": {
+      "model": "SVC",
+      "currency": "INR",
+      "accuracy": 0.8896,
+      "precision": 0.8235,
+      "recall": 0.7514,
+      "f1_score": 0.7858,
+      "confusion_matrix": [
+        [
+          903,
+          57
+        ],
+        [
+          88,
+          266
+        ]
+      ]
+    },
+    "Random Forest": {
+      "model": "Random Forest",
+      "currency": "INR",
+      "accuracy": 0.8858,
+      "precision": 0.8643,
+      "recall": 0.6836,
+      "f1_score": 0.7634,
+      "confusion_matrix": [
+        [
+          922,
+          38
+        ],
+        [
+          112,
+          242
+        ]
+      ]
+    }
+  }
+}
